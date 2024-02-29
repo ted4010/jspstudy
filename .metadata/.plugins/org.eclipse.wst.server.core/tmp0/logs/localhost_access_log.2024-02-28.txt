@@ -108,3 +108,13 @@
 0:0:0:0:0:0:0:1 - - [28/Feb/2024:15:31:21 +0900] "GET /servlet/pkg05_redirect/NewFile.html HTTP/1.1" 200 189
 0:0:0:0:0:0:0:1 - - [28/Feb/2024:15:31:25 +0900] "GET /servlet/destination1?luggage=%EA%B9%80%EC%B9%98 HTTP/1.1" 302 -
 0:0:0:0:0:0:0:1 - - [28/Feb/2024:15:31:25 +0900] "GET /servlet/destination2?luggage=%EA%B9%80%EC%B9%98 HTTP/1.1" 200 112
+127.0.0.1 - - [28/Feb/2024:15:48:29 +0900] "GET / HTTP/1.1" 404 808
+0:0:0:0:0:0:0:1 - - [28/Feb/2024:15:48:29 +0900] "GET /servlet/pkg06_upload/NewFile.html HTTP/1.1" 200 877
+0:0:0:0:0:0:0:1 - - [28/Feb/2024:15:48:56 +0900] "GET /servlet/pkg06_upload/NewFile.html HTTP/1.1" 200 877
+0:0:0:0:0:0:0:1 - - [28/Feb/2024:15:50:13 +0900] "GET /servlet/pkg06_upload/NewFile.html HTTP/1.1" 200 939
+0:0:0:0:0:0:0:1 - - [28/Feb/2024:16:41:06 +0900] "GET /servlet/pkg01_lifecycle/NewFile.html HTTP/1.1" 200 332
+0:0:0:0:0:0:0:1 - - [28/Feb/2024:16:41:08 +0900] "GET /servlet/life HTTP/1.1" 200 19
+0:0:0:0:0:0:0:1 - - [28/Feb/2024:16:41:10 +0900] "POST /servlet/life HTTP/1.1" 200 19
+0:0:0:0:0:0:0:1 - - [28/Feb/2024:17:32:09 +0900] "GET /servlet/response HTTP/1.1" 200 173
+0:0:0:0:0:0:0:1 - - [28/Feb/2024:17:32:17 +0900] "GET /servlet/pkg03_response/NewFile.html HTTP/1.1" 200 296
+0:0:0:0:0:0:0:1 - - [28/Feb/2024:17:32:19 +0900] "GET /servlet/response HTTP/1.1" 200 173

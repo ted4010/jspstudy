@@ -20,8 +20,8 @@ public class StopOver extends HttpServlet {
 	   * forward
 	   * 
 	   * 1. 이동할 때 요청과 응답 모두 전달된다.
-	   * 2. 이동 경로를 작성할 때 contextPath는 제외하고 작성해야한다. (URLMapping만 작성한다.)
-	   * 3. 클라이언트는 forward 경로를 확인할 수 없다.
+	   * 2. 이동 경로를 작성할 때 contextPath(여기서는 servlet)는 제외하고 작성해야한다. (URLMapping만 작성한다.)
+	   * 3. 클라이언트는 forward 경로를 확인할 수 없다. (회사 내부 통신망이라고 생각하면 됨)
 	   * 4. forward 하는 경우
 	   *   1) 단순 이동
 	   *   2) 쿼리 select

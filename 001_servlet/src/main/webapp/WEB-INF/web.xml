@@ -99,4 +99,24 @@
     <servlet-name>Destination2</servlet-name>
     <url-pattern>/destination2</url-pattern>
   </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>Upload</display-name>
+    <servlet-name>Upload</servlet-name>
+    <servlet-class>pkg06_upload.Upload</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Upload</servlet-name>
+    <url-pattern>/upload</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>Download</display-name>
+    <servlet-name>Download</servlet-name>
+    <servlet-class>pkg06_upload.Download</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Download</servlet-name>
+    <url-pattern>/download</url-pattern>
+  </servlet-mapping>
 </web-app>

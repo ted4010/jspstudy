@@ -14,19 +14,19 @@ import java.io.IOException;
  * 1. 웹 브라우저를 통해서 실행되는 Java 클래스이다.
  * 2. 클라이언트의 요청을 받는 Java 클래스이다.
  * 3. jakarta.servlet.http.HttpServlet 클래스를 상속 받는다.
- *    ( Tomcat 이 지원하는 클래스이므로 Tomcat이 없으면 실행할 수 없다.
+ *    (Tomcat 이 지원하는 클래스이므로 Tomcat이 없으면 실행 할 수 없다.)
  * 4. 동일한 프로젝트(컨텍스트)에서는 동일한 이름의 Servlet이 존재할 수 없다.
- *    ( Servlet이 저장되는 장소가 JSP/Servlet Container(톰캣)이기 떄문이다.
+ *    (Servlet이 저장되는 장소가 JSP/Servlet Container(톰캣)이기 때문이다.)
  */
 
 /*
  * 실행 주소(URL)
  * 
  * 1. 형식
- *    protocal://host:port/contextPath/URLMapping
+ *    protocal://host:post/contextPath/URLMapping
  * 2. contextPath
  *    1) 프로젝트 경로를 의미한다.
- *    2) 프로잭트를 생성할 떄 결정한다.
+ *    2) 프로젝트 생성할 때 결정한다.
  *    3) 프로젝트 속성(Properties)에서 변경할 수 있다.
  *       프로젝트 우클릭 - 속성 - Web Project Settings
  * 3. URLMapping
@@ -37,9 +37,6 @@ import java.io.IOException;
  *      (2) WEB-INF/web.xml
  */
 
-/**
- * Servlet implementation class LifeCycle
- */
 @WebServlet("/life") /* http://localhost:8080/servlet/life 주소를 입력하면 Servlet이 실행된다.*/
 public class LifeCycle extends HttpServlet {
 	private static final long serialVersionUID = 1L;
