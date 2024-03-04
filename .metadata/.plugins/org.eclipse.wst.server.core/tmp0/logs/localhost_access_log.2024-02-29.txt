@@ -89,3 +89,7 @@
 0:0:0:0:0:0:0:1 - - [29/Feb/2024:16:25:12 +0900] "POST /servlet/saveCookie HTTP/1.1" 302 -
 0:0:0:0:0:0:0:1 - - [29/Feb/2024:16:25:12 +0900] "GET /servlet/readCookie HTTP/1.1" 200 696
 0:0:0:0:0:0:0:1 - - [29/Feb/2024:16:25:26 +0900] "GET /servlet/deleteCookie?cookieName=name; HTTP/1.1" 500 1406
+127.0.0.1 - - [29/Feb/2024:16:29:39 +0900] "GET / HTTP/1.1" 404 808
+0:0:0:0:0:0:0:1 - - [29/Feb/2024:16:29:42 +0900] "POST /servlet/saveCookie HTTP/1.1" 302 -
+0:0:0:0:0:0:0:1 - - [29/Feb/2024:16:29:42 +0900] "GET /servlet/readCookie HTTP/1.1" 200 696
+0:0:0:0:0:0:0:1 - - [29/Feb/2024:16:29:47 +0900] "GET /servlet/deleteCookie?cookieName=name HTTP/1.1" 200 -

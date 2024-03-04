@@ -37,6 +37,7 @@ import java.io.IOException;
  *      (2) WEB-INF/web.xml
  */
 
+// @WebServlet Annotation 은 서블릿을 정의하고 매핑하는데 사용된다.
 @WebServlet("/life") /* http://localhost:8080/servlet/life 주소를 입력하면 Servlet이 실행된다.*/
 public class LifeCycle extends HttpServlet {
 	private static final long serialVersionUID = 1L;
