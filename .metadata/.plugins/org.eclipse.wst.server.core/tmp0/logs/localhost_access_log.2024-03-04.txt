@@ -104,3 +104,6 @@
 0:0:0:0:0:0:0:1 - - [04/Mar/2024:16:37:31 +0900] "GET /servlet/dataBind1 HTTP/1.1" 404 722
 0:0:0:0:0:0:0:1 - - [04/Mar/2024:16:38:02 +0900] "GET /servlet/dataBind1 HTTP/1.1" 404 722
 0:0:0:0:0:0:0:1 - - [04/Mar/2024:16:38:19 +0900] "GET /servlet/dataBind1 HTTP/1.1" 404 722
+127.0.0.1 - - [04/Mar/2024:17:16:53 +0900] "GET / HTTP/1.1" 404 808
+0:0:0:0:0:0:0:1 - - [04/Mar/2024:17:16:53 +0900] "GET /servlet/pkg02_request/NewFile.html HTTP/1.1" 200 3215
+0:0:0:0:0:0:0:1 - - [04/Mar/2024:17:16:56 +0900] "GET /servlet/request?number=10&number2=1.5 HTTP/1.1" 200 -

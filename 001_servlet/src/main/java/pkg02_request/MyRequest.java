@@ -29,7 +29,7 @@ public class MyRequest extends HttpServlet {
 	  /* if 문을 이용한 null / 빈 문자열 처리 */
 	  String strNumber = request.getParameter("number");
 	  int number = 0;
-	  if(strNumber != null && !strNumber.isEmpty())
+	  if(strNumber != null && !strNumber.isEmpty())  // && 둘다 참일 때 참
 	    number = Integer.parseInt(strNumber);
 	  System.out.println(number);
 	  
