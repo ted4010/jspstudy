@@ -16,5 +16,5 @@ public class BoardDto {
   private String title;
   private String contents;
   private Date modified_at;
-  private Date creadted_at;
+  private Date created_at;
 }
