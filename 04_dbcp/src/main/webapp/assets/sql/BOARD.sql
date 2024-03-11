@@ -10,3 +10,4 @@ CREATE TABLE BOARD_T (
 
 DROP SEQUENCE BOARD_SEQ;
 CREATE SEQUENCE BOARD_SEQ NOCACHE;
+first_namelast_nameboard_notitlecontentsmodified_at
