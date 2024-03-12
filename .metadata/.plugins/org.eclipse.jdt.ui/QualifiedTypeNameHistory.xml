@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-    <fullyQualifiedTypeName name="java.net.URL"/>
     <fullyQualifiedTypeName name="java.net.HttpURLConnection"/>
     <fullyQualifiedTypeName name="java.lang.RuntimeException"/>
     <fullyQualifiedTypeName name="jakarta.servlet.ServletContext"/>
@@ -21,8 +20,6 @@
     <fullyQualifiedTypeName name="lombok.Getter"/>
     <fullyQualifiedTypeName name="common.ActionForward"/>
     <fullyQualifiedTypeName name="java.sql.Date"/>
-    <fullyQualifiedTypeName name="lombok.AllArgsConstructor"/>
-    <fullyQualifiedTypeName name="lombok.Builder"/>
     <fullyQualifiedTypeName name="com.gdu.prj.service.BoardService"/>
     <fullyQualifiedTypeName name="com.gdu.prj.service.BoardServiceImpl"/>
     <fullyQualifiedTypeName name="java.sql.Connection"/>
@@ -33,9 +30,7 @@
     <fullyQualifiedTypeName name="javax.sql.DataSource"/>
     <fullyQualifiedTypeName name="javax.naming.NamingException"/>
     <fullyQualifiedTypeName name="java.util.ArrayList"/>
-    <fullyQualifiedTypeName name="com.gdu.prj.dao.BoardDaoImpl"/>
     <fullyQualifiedTypeName name="org.apache.jasper.tagplugins.jstl.core.Param"/>
-    <fullyQualifiedTypeName name="com.gdu.prj.dto.BoardDto"/>
     <fullyQualifiedTypeName name="javax.swing.border.Border"/>
     <fullyQualifiedTypeName name="com.gdu.prj.common.ActionForward"/>
     <fullyQualifiedTypeName name="jakarta.servlet.http.HttpServletRequest"/>
@@ -44,10 +39,7 @@
     <fullyQualifiedTypeName name="java.util.Arrays"/>
     <fullyQualifiedTypeName name="java.lang.Integer"/>
     <fullyQualifiedTypeName name="com.gdu.prj.utils.MyPageUtils"/>
-    <fullyQualifiedTypeName name="java.util.Map"/>
     <fullyQualifiedTypeName name="java.lang.Object"/>
-    <fullyQualifiedTypeName name="lombok.NoArgsConstructor"/>
-    <fullyQualifiedTypeName name="lombok.Data"/>
     <fullyQualifiedTypeName name="java.lang.StringBuilder"/>
     <fullyQualifiedTypeName name="java.util.Optional"/>
     <fullyQualifiedTypeName name="com.gdu.prj.dao.BoardDaolmpl"/>
@@ -57,7 +49,15 @@
     <fullyQualifiedTypeName name="org.apache.ibatis.io.Resources"/>
     <fullyQualifiedTypeName name="org.apache.ibatis.session.SqlSessionFactory"/>
     <fullyQualifiedTypeName name="org.apache.ibatis.session.SqlSessionFactoryBuilder"/>
-    <fullyQualifiedTypeName name="com.gdu.prj.dao.BoardDao"/>
-    <fullyQualifiedTypeName name="java.util.List"/>
     <fullyQualifiedTypeName name="org.apache.ibatis.session.SqlSession"/>
+    <fullyQualifiedTypeName name="com.gdu.prj.dao.BoardDaoImpl"/>
+    <fullyQualifiedTypeName name="java.util.Map"/>
+    <fullyQualifiedTypeName name="java.util.List"/>
+    <fullyQualifiedTypeName name="com.gdu.prj.dto.BoardDto"/>
+    <fullyQualifiedTypeName name="com.gdu.prj.dao.BoardDao"/>
+    <fullyQualifiedTypeName name="org.junit.Test"/>
+    <fullyQualifiedTypeName name="lombok.NoArgsConstructor"/>
+    <fullyQualifiedTypeName name="lombok.AllArgsConstructor"/>
+    <fullyQualifiedTypeName name="lombok.Data"/>
+    <fullyQualifiedTypeName name="lombok.Builder"/>
 </qualifiedTypeNameHistroy>

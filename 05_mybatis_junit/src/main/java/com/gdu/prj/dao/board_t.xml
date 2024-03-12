@@ -35,7 +35,6 @@
       2) resultType="int"
       3) resultType="double"
   -->
-  
 
   <insert id="insertBoard"
           parameterType="com.gdu.prj.dto.BoardDto">

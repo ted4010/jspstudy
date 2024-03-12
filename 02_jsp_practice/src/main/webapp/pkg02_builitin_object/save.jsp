@@ -34,6 +34,16 @@
   
   // 문자 출력 스트림 생성 
   BufferedWriter writer = new BufferedWriter(new FileWriter(uploadFile));
+  
+  // 문자 출력 스트림으로 데이터 내보내기
+  writer.write(createdAt + "\n");
+  writer.write(title + "\n");
+  writer.write(contents + "\n");
+  writer.flush();
+  writer.close();
+  
+  // 파일 확인을 위한 페이즈로 이동하기
+  response.sendRedirect( request.getContextPath() + "/pkg02_builitin_object/confirm.jsp");
 %>
 <!DOCTYPE html>
 <html>

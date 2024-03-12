@@ -25,7 +25,7 @@
   
  <%--
    JSP Bind 영역이 우선 순위
-   1. 동일한 이름의 속성(Attribute)이 여러 영역에 동시에 존재하는 경우 우선으로 사용되는
+   1. 동일한 이름의 속성(Attribute)이 여러 영역에 동시에 존재하는 경우 우선으로 사용되는 속성이 있다.
    2. 높은 순위                           낮은 순위
       pageContext > request > session > application
   --%>
